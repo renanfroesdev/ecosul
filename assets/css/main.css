@@ -2724,31 +2724,38 @@ button.alt:hover,
 	color: #333;
 }
 
-.botao-flutuante {
+.atendente-whatsapp {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  z-index: 9999;
-}
-
-.botao-flutuante a {
-  background-color: #25D366;
-  color: #fff;
-  padding: 14px 22px;
-  border-radius: 50px;
-  font-weight: lighter;
-  text-decoration: none;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 10px;
+  z-index: 999;
 }
 
-.botao-flutuante a:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+.atendente-whatsapp img {
+  width: 150px; /* ou ajuste para mobile */
+  pointer-events: none;
 }
+
+.botao-whatsapp {
+  background: linear-gradient(135deg, #25D366, #128C7E);
+  color: white;
+  padding: 12px 22px;
+  border-radius: 50px;
+  font-size: 25px;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: inline-block;
+}
+
+.botao-whatsapp:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
 
 .balao-depoimento {
   background-color: #ffe552;
@@ -2823,8 +2830,8 @@ button.alt:hover,
 }
 
 .glide__slide img {
-	width: 100%;
-  height: 275px;
+ width: 100%;
+  height: auto;
   object-fit: cover;
   border-radius: 10px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
@@ -2835,6 +2842,10 @@ button.alt:hover,
 	position: relative;
 	margin-top: 1rem;
 	margin-bottom: 3rem;
+	width: 100%;
+	max-width: 100%;
+	overflow: hidden;
+
 }
 
 .glide__arrows {
@@ -2879,6 +2890,19 @@ button.alt:hover,
 @media (max-width: 768px) {
   .glide__arrows {
     display: none;
+  }
+   .atendente-whatsapp {
+    bottom: 40px; /* sobe o bloco todo */
+  }
+
+  .atendente-whatsapp img {
+    width: 90px;  /* reduz o mascote */
+    margin-bottom: -5px;
+  }
+
+  .botao-whatsapp {
+    font-size: 13px;
+    padding: 10px 18px;
   }
 }
 
