@@ -2672,7 +2672,11 @@ button.alt:hover,
 	}
 
 	.main>.content h3 {
-		font-size: 1.25em;
+		font-size: 2em;
+		font-weight: 400;
+	}
+	.main>.content p {
+		font-size: 1.5em;
 	}
 
 }
@@ -2719,7 +2723,7 @@ button.alt:hover,
 /* Legenda */
 .legenda-compromisso {
 	margin-top: 1rem !important;
-	font-size: 2rem;
+	font-size: 1.5rem;
 	text-align: center;
 	color: #333;
 }
