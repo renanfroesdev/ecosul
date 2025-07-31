@@ -3054,3 +3054,124 @@ button.alt:hover,
   margin-bottom: 0 !important;
 }
 
+.sessao-localidades {
+  background: #f9f9f9;
+  padding: 60px 20px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.container-local {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.sessao-localidades h2 {
+  font-size: 2em;
+  color: #2b7a4b;
+  margin-bottom: 10px;
+}
+
+.texto-local {
+  text-align: justify;
+  font-size: 1.1em;
+  color: #555;
+  line-height: 1.6;
+}
+
+}
+
+.imagem-localidades {
+  margin-top: 20px;
+}
+
+.imagem-localidades img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.imagem-localidades img:hover {
+  transform: scale(1.02);
+}
+.bloco-paragrafo-centralizado {
+  max-width: 640px;
+  margin: 0 auto; /* centraliza horizontalmente */
+}
+
+.bloco-localidade {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.paragrafo-localidades {
+  text-align: center;
+  font-size: 1.2em;
+  color: #555;
+  margin-bottom: 50px;
+  max-width: 800px;
+}
+
+.mapa-amplo {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.mapa-amplo:hover {
+  transform: scale(1.01);
+}
+
+@media screen and (max-width: 768px) {
+  .mapa-amplo {
+    max-width: 100%;
+  }
+
+  .paragrafo-localidades {
+    font-size: 1em;
+    padding: 0 1rem;
+  }
+}
+.bloco-whatsapp-final {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.whatsapp-icon-grande {
+  font-size: 100px;
+  color: #25D366;
+  margin-bottom: 10px;
+}
+
+.subtitulo-whatsapp {
+  font-size: 1.4rem;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.botao-whatsapp-final {
+  background-color: #25D366;
+  color: white;
+  padding: 12px 28px;
+  border-radius: 999px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 255, 94, 0.3);
+}
+
+.botao-whatsapp-final:hover {
+  background-color: #1ebe5d;
+  box-shadow: 0 0 25px #25D366;
+}
